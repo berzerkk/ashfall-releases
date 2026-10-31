@@ -26,9 +26,6 @@
 - Fin des carreaux visibles sur le sol : textures recentrées sur leur détail, bruit de sol décorrélé et ombre en une seule cascade.
 - Eau du hub entièrement repeinte (texture de houle, écume en deux traits, frange translucide) et mur invisible avant la pente.
 
-### Outils
-- Mode cinéma : compteur d'images masqué pendant les captures, mode --cine pour filmer une zone.
-- Bande-annonce et captures générées depuis le jeu (tools/trailer.sh).
 
 ## 0.3.0 — Terres, légendaires et renouveau visuel
 ### Monde et personnages
