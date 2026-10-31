@@ -1,5 +1,35 @@
 # Journal des modifications
 
+## 0.4.0 — Trois actes, quinze donjons
+### Monde
+- Campagne en trois actes et quinze donjons : forêt de Verdeclat (a1–a5), désert des Ossements (a6–a10), faille Écarlate (a11–a15), chacun avec son thème, sa palette et sa musique.
+- Le hub devient une île posée sur la mer : sable peint, pente de plage, écume au rivage et houle animée ; décor réduit au mannequin et à la table de guerre.
+- Décors nettoyés : seuls les kits Kenney et Quaternius sont utilisés, matériaux blancs corrigés, parois de basalte dans la faille, chariot et props de plage.
+
+### Combat et lisibilité
+- Télégraphes d'attaque par type d'ennemi : arcs, cercles et lignes au sol, couleur par élément — on voit arriver les coups.
+- Arène infinie avec vagues, élites et suivi de la meilleure vague.
+- Modificateurs de cauchemar tirés au lancement de chaque carte (16 affixes, trois par palier).
+
+### Objets et interface
+- Filtre de butin par rareté, comparaison automatique avec l'objet équipé, bouton d'auto-équipement DPS et robustesse.
+- Chiffres de dégâts abrégés (k), liste de personnages défilante, deuxième compétence sur le clic droit.
+
+### Variantes de classe
+- Chaque classe a désormais sa propre palette : tissu, cheveux et halo des yeux changent, la silhouette se lit d'un coup d'œil dans une arène chargée.
+
+### Audio
+- Cinq bus (général, effets, musique, interface, ambiance) avec curseurs réellement appliqués, y compris quand le jeu est en pause.
+- Musique et ambiance pour chaque acte, chaque zone et chaque boss ; thème de l'acte I réenregistré.
+
+### Rendu
+- Fin des carreaux visibles sur le sol : textures recentrées sur leur détail, bruit de sol décorrélé et ombre en une seule cascade.
+- Eau du hub entièrement repeinte (texture de houle, écume en deux traits, frange translucide) et mur invisible avant la pente.
+
+### Outils
+- Mode cinéma : compteur d'images masqué pendant les captures, mode --cine pour filmer une zone.
+- Bande-annonce et captures générées depuis le jeu (tools/trailer.sh).
+
 ## 0.3.0 — Terres, légendaires et renouveau visuel
 ### Monde et personnages
 - Huit classes jouables : Gardien de braise, Arcaniste, Rôdeuse, Invocateur, Pyromancien, Tisse-Givre, Mande-Tempête et Porte-Peste, avec leurs mécaniques et arbres de classe.
