@@ -1,5 +1,46 @@
 # Journal des modifications
 
+## 0.5.0 — La forge des cendres
+### Forge
+- Forge refaite de fond en comble : trois qualités d'affixes — **Normal**, **Spécial** et **Ultime** — chacune avec ses propres statistiques. Une ligne n'affiche plus « vie maximale » dans les trois qualités : chaque qualité apporte des effets différents, de plus en plus puissants.
+- **Comparatif avant/après** directement dans le panneau : l'ancienne et la nouvelle version de l'objet côte à côte, une flèche entre les deux, la ligne modifiée surlignée en rouge (avant) et en vert (après). Plus de fenêtre par-dessus l'interface.
+- Boutons **Annuler / Reforger / Confirmer** sous le comparatif ; le panneau de droite garde en permanence les matériaux et les résultats possibles.
+- **Plafonds** : deux affixes spéciaux et deux ultimes par objet, préfixes et suffixes confondus. Les lignes déjà spéciales ou ultimes brillent dans leur couleur, et le pool reste consultable même quand le plafond est atteint.
+- **T1 protégé** : reforger une ligne déjà au meilleur tier demande confirmation, avec une case « Ne plus demander pour cette session ».
+- **Tier T1** : halo doré sur la fiche de l'objet et sonorité satisfaisante ; plus de texte parasite ni de confettis.
+- Objets haut niveau : les pires tiers sont retirés du tirage (toujours au moins trois tiers), et le meilleur tier devient le plus rare — environ 17 % de T1, 33 % de T2, 50 % de T3.
+- Tiers affichés **à gauche** des lignes avec un cadre stylisé, couleur en dégradé (or → rose → turquoise → bleu → violet) identique dans toutes les fenêtres.
+- Re-jets, ré-énergisation et corruption déplacés au centre, sous les affixes : elles s'appliquent directement, la forge seule passe par le comparatif.
+- Les affixes de ceinture parlent enfin d'**élixirs** et non de potions.
+
+### Personnages et équilibrage
+- Une **seule compétence de base** par classe : les autres se gagnent en jeu.
+- Départ sans équipement, sans aura ni élixir.
+- Bonus plat de niveau retiré des attaques et armes à dégâts fixes : fin des dégâts qui explosent sans équipement.
+- Vitesse d'incantation et d'attaque affichées en attaques/seconde, avec le temps par incantation.
+- Auto-équipement fiable (les deux anneaux dans le même clic) et comparaison DPS/robustesse à l'infobulle.
+
+### Interface et confort
+- Icônes générées pour les objets, matériaux, compétences, classes et talents, **nettes à toutes les échelles** d'interface.
+- **Clic sur un objet équipé** : infobulle épinglée, mots-clés survolables et bouton **Forger** direct.
+- Infobulle d'objet : énergie en barre, dégâts fixes, niveau requis mis en évidence.
+- Bannières de déblocage avec l'icône de la compétence ou du support.
+- Polices d'interface plus nettes, textes de comparaison et de forge allégés.
+
+### Options et affichage
+- **Résolution de la fenêtre** : 720p, 900p, 1080p, **2K** et 4K (fenêtre recentrée ; ignorée en plein écran).
+- **Échelle de l'interface** de 75 % à 200 % en curseur continu.
+- Cinq volumes (général, effets, interface, musique, ambiance) appliqués en direct, avec affichage **Muet** à zéro ; la musique reprend dès qu'on remonte son curseur.
+- Les icônes suivent la résolution réelle de l'écran, sans agrandissement flou.
+
+### Audio et monde
+- Musiques et ambiances générées pour chaque acte, zone et boss ; sons d'interface, de forge et de déblocage retravaillés.
+- Hub en île de Hautecrête, actes II et III, décors Quaternius et Kenney, sols sans carreaux visibles.
+
+### Corrections
+- Musique absente au lancement depuis le menu, curseurs de volume sans effet, échecs des tests de départ de classe.
+- Infobulles qui restaient bloquées, comparaison d'objets et tri de l'inventaire.
+
 ## 0.4.0 — Trois actes, quinze donjons
 ### Monde
 - Campagne en trois actes et quinze donjons : forêt de Verdeclat (a1–a5), désert des Ossements (a6–a10), faille Écarlate (a11–a15), chacun avec son thème, sa palette et sa musique.
