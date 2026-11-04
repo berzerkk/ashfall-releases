@@ -1,5 +1,52 @@
 # Journal des modifications
 
+## 0.6.2 — Os, orages et grand ménage
+L'invocateur reçoit enfin une vraie armée, le monde gagne la pluie, l'orage et la nuit, les talents sont remis à plat et des dizaines de retours du playtest sont corrigés. Merci à tous les testeurs !
+
+### Invocateur et serviteurs
+- **Essence squelettique** : plus de nombre maximum de squelettes ; chaque serviteur d'Os réserve de l'essence (squelette 30, archer 40, golem 70 sur 120 de base). Jauge d'essence dans le HUD.
+- Nouveaux modèles pour les **squelettes**, les **archers d'os** et le **golem** ; le Colosse d'os ennemi porte une armure.
+- Les monstres **attaquent vos serviteurs**, qui peuvent mourir. Les serviteurs vous suivent d'une zone à l'autre, contournent les obstacles et ne restent plus coincés.
+- **Archers d'os** : leurs flèches sont de vrais projectiles (perforation, rebond, retour, tout autour, projectiles multiples…), volent plus loin, brillent, visent là où la cible va et l'archer se rapproche si ses flèches ne portent pas assez loin.
+- **Squelettes et golem** acceptent les supports de mêlée : **Frappe multiple**, **Onde de choc**, **Assaut rapide**.
+- Nouveau sort **Convocation** (instantané) : rappelle tous vos serviteurs au curseur, +20 % de dégâts pendant 4 s.
+- Nouveaux supports : **Légion**, **Fraternité**, **Frénésie de la horde**, **Invocation multiple**, **Élite**, **Prolongation**, **Fugacité**, **Projectiles rapides**.
+- Trois légendaires d'Os : **Moelle de l'Ossuaire**, **Couronne du Roi-Liche**, **Sceau du Fossoyeur**. Armes de serviteur (sceptres, bâtons-totems) avec leurs propres affixes.
+- Un seul buff par compétence de serviteur, avec le nombre de serviteurs en vie.
+
+### Talents
+- **Arbres des dieux revus** : chaque rang ajoute la même valeur, les effets forts n'ont qu'un rang, deux statistiques sur un nœud ont la même valeur, plus de bonus sans rapport. Les rangs en trop sont rendus automatiquement.
+- **Talents majeurs** affichés à droite de l'arbre : les trois choix de chaque palier sont lisibles d'un coup d'œil, un clic suffit.
+- Corrigé : *Maîtrise tactique* et *Grand Alchimiste* **allongeaient** les recharges ; la 7ᵉ colonne du Dieu de la Guerre était ouverte dès 0 point.
+- Infobulles des talents : petit / moyen / grand talent, effet du rang actuel ligne par ligne.
+
+### Supports et compétences
+- Compatibilité des supports refaite : un support de dégâts ne va plus sur une compétence sans dégâts, un support de vitesse d'incantation plus sur un sort instantané.
+- Tag **Instantané** (élixirs, Convocation) compatible avec **Préparation** ; tag **Durée** : Prolongation et Fugacité marchent sur les élixirs.
+- **Écho** (sorts) et **Frappe multiple** (mêlée) : au-delà de 100 %, plusieurs répétitions.
+- Renommés : Assaut rapide, Incantation rapide, Rebond.
+
+### Monde
+- **Météo** : pluie (de la bruine à l'averse) et tempête avec éclairs, au hasard sur la plupart des cartes et au refuge — jamais dans la faille de lave.
+- **La nuit** peut tomber : lune bleutée, et une lanterne vous éclaire.
+- **Désert** repensé : lumière moins jaune, sorts moins éblouissants, parois de grès, et **cinq tracés différents**.
+- **Coffre du refuge** : stockage partagé entre tous vos personnages, devant la tente.
+- **Minimap** : vraie carte des zones praticables (ponts du galion compris), contours lisses, frange de découverte bleutée, boss épinglé au bord ; la petite carte n'affiche plus les objets.
+- Musique de boss au réveil du boss.
+
+### Équilibrage
+- Courbe d'expérience et monstres revus (vie, dégâts, multiplicateurs d'acte), début de partie plus nerveux.
+- Quantité de butin selon le palier de cauchemar ; les matériaux tombent en quantité **variable** (plus toujours 9 braises).
+- Forge débloquée au niveau 10. Un objet équipé posé sur l'enclume revient à sa place à la confirmation.
+
+### Interface et confort
+- **Raccourcis** : on peut retirer une compétence de sa touche puis la lier ailleurs, et deux compétences échangent leur place correctement.
+- **Auto-équiper** gère enfin les deux anneaux.
+- Boucliers tenus correctement, haches dans le bon sens.
+- Fond de l'écran titre sans facettes ; options d'ombres et d'occlusion ambiante, MSAA 2x par défaut (meilleures performances).
+- Altérations de la cible qui disparaissent avec elle, réservation d'aura alignée, infobulles allégées (supports actifs, archers).
+- Icône du jeu sur l'EXE.
+
 ## 0.6.1 — Braises et embruns
 Le feu repensé de fond en comble, de vraies musiques et des ambiances enregistrées, des sorts qui s'enchaînent enfin librement. Bon jeu !
 
