@@ -1,5 +1,29 @@
 # Journal des modifications
 
+## 0.6.5 — Monstres vivants, boss redoutables et sortie au grand jour
+Les monstres des trois premiers niveaux bougent enfin comme des vraies créatures, les boss ont chacun leurs attaques et les catacombes débouchent à l'air libre. Bon jeu !
+
+### Monstres
+- **Animations entièrement refaites** pour le loup, le crabe, les gobelins, les squelettes, les morts errants et les spectres : pieds qui restent posés au sol, articulations réelles, allures distinctes selon que la créature erre ou vous poursuit.
+- **Loup** : vraies pattes de canidé, pas à quatre temps quand il rôde, **galop** quand il chasse ; il se ramasse avant de bondir et mord en secouant la tête.
+- **Crabe** refait : carapace dentelée, yeux pédonculés, grosse pince à doigt mobile, et il **marche de côté**.
+- **Squelettes** : marche raide, tête qui tressaute, bras ballants, épée tenue pour de bon ; à leur mort, ils s'effondrent et **le crâne roule au sol**.
+- **Morts errants** : ils boitent en traînant la jambe, bras tendus vers vous.
+- **Spectre des ossuaires** redessiné : il flotte, sa robe en lambeaux ondule et traîne derrière lui, crâne et yeux luisants sous la capuche, longues griffes ; il est **translucide**.
+
+### Boss
+- **Grumm, Roi des Trolls** : mousse, champignons et un jeune arbre sur le dos ; il **arrache un rocher** pour vous le lancer et fait **jaillir des racines** en trois sillons.
+- **Le Fossoyeur** : bougies et corbeau sur son cercueil ; **des mains de squelettes surgissent sous vos pieds**, les **âmes de sa lanterne** vous traquent, et il projette de la terre d'une pelletée.
+- **Le Seigneur des Ossuaires** : ailes d'os et flamme d'âme ; **tourbillon de faux**, **cage de pieux d'os** qui se referme autour de vous et **spirale d'âmes**.
+- Chaque attaque s'annonce au sol avant de frapper.
+
+### Catacombes de Morteval
+- Les murs d'ossements épousent les galeries, sans trous aux angles ; les escaliers ont leurs murs et sont éclairés par des torchères.
+- **Nouvelle sortie** : après la dernière porte, une galerie de terre remonte vers la lumière ; on aperçoit la surface comme en sortant d'un terrier, puis on débouche dans une prairie ensoleillée.
+
+### Corrections
+- Les marches des escaliers des catacombes ne sont plus noires.
+
 ## 0.6.4 — Cimetière, catacombes et nouvelle forge
 La forêt de Verdeclat a été entièrement refaite, un cimetière sous la pluie et des catacombes d'ossements vous attendent, la forge sait maintenant crafter toute seule et la campagne monte jusqu'au niveau 55. Bon jeu !
 
