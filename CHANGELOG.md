@@ -1,5 +1,54 @@
 # Journal des modifications
 
+## 0.7.0 — Le Graveur de Runes, gardes et malédictions
+Une neuvième classe, une trentaine de nouvelles compétences, un Porte-Peste entièrement repensé autour de l'érosion, des gardiens plus coriaces et la manette enfin prise en charge. Bon jeu !
+
+### Nouvelle classe : le Graveur de Runes
+- Il **grave des runes au sol** : Brasier (feu), Givre (froid), Tonnerre (foudre) et Flétrissement (érosion), puis les fait **détoner** avec le **Verbe de Rupture**.
+- **Gravure Runique** : une seule touche grave tour à tour les runes de vos **4 emplacements** (débloqués aux niveaux 1, 6, 14 et 24), choisis dans l'onglet Classe.
+- **Réactions** : deux runes d'éléments différents qui se chevauchent réagissent entre elles (Fracture thermique, Plasma, Supraconduction, Flamme noire, Nécrose glacée, Arc du vide), et toutes réagissent pendant le Verbe de Rupture.
+- Résonance, arbre de classe de 12 nœuds, pierres runiques en orbite autour du héros, 3 supports de rune (Glyphe durable, Glyphe instable, Rune jumelle) et des légendaires dédiés : Craie du Premier Graveur, Gantelets du Sceau Errant, Couronne des Quatre Sceaux, Anneau de la Ronde Runique, Bâton du Grand Cycle, Lexique du Silence.
+- Déesse du Savoir : nouveaux talents majeurs (Ritournelle, Cycle des Arcanes, Sablier inversé, Runes ancrées, Roue des éléments, Plein du flux). Un personnage qui avait l'ancien choix garde le nouveau du même rang.
+
+### Nouvelles compétences
+- **8 gardes**, instantanées et lancées sans interrompre votre action : Surcharge du Bouclier, Garde Inébranlable, Pas de Brume, Peau de Pierre, Mur de Boucliers, Égides des Flammes, du Givre et de l'Orage.
+- **7 malédictions** de zone (une seule par ennemi, la nouvelle remplace l'ancienne) : Flammes, Givre, Orage, Néant (érosion), Supplice (dégâts sur la durée), Fragilité (coups directs) et Brisure (physique). Nouveau support **Aura Maudite** : la malédiction devient une zone autour de vous.
+- **4 renforcements**, chacun avec son effet propre : Ferveur Martiale (attaques, plus fort entouré d'ennemis), Sceau des Arcanes (sorts, prix du sang), Fléau Rampant (dégâts sur la durée, spore qui Ronge les ennemis) et Convocation (rappel des serviteurs).
+
+### Porte-Peste et érosion
+- **Érosion** : les sorts d'érosion infligent de vrais coups d'érosion, jamais réduits par la résistance élémentaire. Le **poison disparaît** : il devient l'érosion des coups.
+- **Contagion** (nuage de spores qui saute d'ennemi en ennemi), **Emprise** (liens canalisés) et **Faux de la Moisson** : la **Moisson** inflige d'un coup plusieurs secondes de tous les dégâts sur la durée de la cible.
+- Propagation revue à la baisse et plus lisible ; trois arbres de dieux d'afflictions (Maître des Afflictions, Faucheuse des Fléaux, Seigneur de l'Entropie, nouveau) ; 6 légendaires de peste.
+- Malédiction de Flétrissement : plus forte en érosion (+75 %), une Flétrissure par seconde.
+
+### Compétences et supports
+- Grande passe sur toutes les compétences : distances et zones affichées enfin exactes, une cinquantaine de descriptions corrigées, infobulles avec les vrais dégâts, portées, cadences et coûts.
+- Nombreux supports qui n'avaient aucun effet réparés (Traînée de feu et Élan sur les déplacements, Onde de choc, Totem Frénétique, Rebond sur le Totem de Foudre…) ; supports sans effet retirés des compétences qui ne pouvaient pas en profiter.
+- Armée d'os : un squelette par lancer, de plus en plus nombreux avec le niveau.
+- Totems élémentaires redessinés, foudre en blanc-bleu partout, flèches physiques en acier chaud.
+- Icônes pour toutes les nouvelles compétences, les nouveaux supports et légendaires.
+
+### Gardiens et monstres
+- **Grumm, le Fossoyeur et le Seigneur des Ossuaires** : modèles enrichis, entrées en scène et **seconde phase à 50 %** de vie, avec rage et nouvelles attaques (anneaux de racines, cercueil spectral, moisson des âmes et crânes-tourelles).
+- PV des gardiens de campagne moins exponentiels ; plus de monstres et d'élites dans les catacombes et la prairie.
+
+### Histoire et campagne
+- **Cliquetis**, un crâne volant bavard, vous accompagne de la fin de la Lisière jusqu'au refuge.
+- Les affaires du Comte révèlent la fuite de la silhouette cendrée et une carte marine.
+- La Lisière, les catacombes, la sortie du terrier, la prairie et le Castel retouchés : torches aux vraies flammes, sarcophages sculptés, toiles d'araignée, butte rocheuse, sous-bois plus dense, lune de sang au-dessus du Castel.
+- Effets au sol (érosion, sceaux, feu) qui épousent le relief.
+
+### Interface et confort
+- **Manette et Steam Deck** : visée au stick assistée, curseur virtuel dans les menus, icônes des boutons, réglages adaptés au premier lancement, aide dans Options → Contrôles.
+- **Écran de mort** refait : les 10 derniers coups reçus, leur source et le détail du calcul (réductions, talents, boucliers).
+- **Thèmes de l'écran titre et du chargement** : nouvelle catégorie de cosmétiques (Braises offert, Cendres, Cosmos et Glitch à débloquer).
+- Sélection de personnage : ordre modifiable par glisser-déposer, temps de jeu, progression.
+- Chargements plus réguliers.
+
+### Mises à jour
+- Mise à jour automatique plus fiable : plus de boucle de relance, taille et empreinte du fichier vérifiées, journal `update.log` en cas de souci.
+- Les téléchargements passent par un nouveau serveur pour les prochaines versions, sans rien changer de votre côté.
+
 ## 0.6.5 — Monstres vivants, boss redoutables et sortie au grand jour
 Les monstres des trois premiers niveaux bougent enfin comme des vraies créatures, les boss ont chacun leurs attaques et les catacombes débouchent à l'air libre. Bon jeu !
 
